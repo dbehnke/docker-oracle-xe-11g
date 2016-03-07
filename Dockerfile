@@ -1,6 +1,6 @@
 FROM buildpack-deps:trusty-curl
 
-MAINTAINER Alexei Ledenev <alexei.led@gmail.com>
+MAINTAINER Dave Behnke <boolean74@gmail.com>
 
 ADD chkconfig /sbin/chkconfig
 ADD init.ora /
